@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Home page</h1>
+    <h3>Welcome Admin</h3>
+    <a href="Regester a new staff.html">Regester a new staff</a><br>
+    <a href="Edit staff details.html">Edit staff details</a><br>
+    <a href="staff list.html">Staff list</a><br>
+    <a href="Department list.html">Department list</a><br>
+    <a href="feedback Result.html">feedback Result</a><br>
+
+    <h1>Regester a new staff</h1>
+    <label>Username:</label> <input type="Enter a username " placeholder="Enter a Name " /><br>
+    <label>password:</label> <input type="Enter a password" placeholder="Enter a password" /><br>
+    <label>Full Name</label> <input type="Fulll Name" placeholder="Full Name" /><br>
+    <label>Email</label> <input type="enter email" placeholder="Enter email" /><br>
+    <label>Phone number</label> <input type="phone number" placeholder="Enter phone number" /><br>
+    <label>Adress</label> <input type="Adress" placeholder="Enter Adress " /><br>
+    <label>Designation :<select>
+            <option value="General manager">General manager</option><label>Other:</label><input type="other"
+                placeholde="Other" />
+
+
+            <h2>Edit your details</h2>
+
+            <label>Username:</label> <input type="Enter a username " placeholder="Enter a Name " /><br>
+            <label>password:</label> <input type="Enter a password" placeholder="Enter a password" /><br>
+            <label>Full Name</label> <input type="Fulll Name" placeholder="Full Name" /><br>
+            <label>Email</label> <input type="enter email" placeholder="Enter email" /><br>
+            <label>Phone number</label> <input type="phone number" placeholder="Enter phone number" /><br>
+            <label>Adress</label> <input type="Adress" placeholder="Enter Adress " /><br>
+            <button>Submit</button> <button>Reset</button>
+
+            <h2>Staff List</h2>
+            <table border="1" cellspacing="0" cellpadding="5">
+                <tr>
+                    <td>
+                        <input type="Text" placeholder="search" />
+                    </td>
+                    <td colspan="4">
+                        <select>
+                            <option value="management">Management</option>
+
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Full Name</th>
+                    <th>Department</th>
+                    <th>Branch</th>
+                    <th>Email</th>
+                    <th>Phone number</th>
+
+                </tr>
+                <tr>
+                    <td>Rakesh Akash rachdeva</td>
+                    <td>Kitchen</td>
+                    <td>Bengalore</td>
+                    <td>7865436789</td>
+                    <td>
+                        <button style="background-color: lightgreen;">Delete</button>
+                    </td>
+                </tr>
+            </table>
+            <br>
+
+            <title>Department List</title>
+            <style>
+                table {
+                    border-collapse: collapse;
+                    width: 30%;
+                }
+
+                th,
+                td {
+                    border: 1px solid black;
+                    padding: 8px;
+                    text-align: left;
+                }
+
+                th {
+                    background-color: #f2f2f2;
+                }
+            </style>
+            <h1>Department List</h1>
+            <table>
+                <tr>
+                    <td><label for="search">Search:</label></td>
+                    <td><input type="text" id="search" name="search"></td>
+                    <td>
+                        <select name="category" id="category">
+                            <option value="Management" selected>Management</option>
+                            <!-- Add more options if needed -->
+                        </select>
+                    </td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>ID</th>
+                    <th>Department Name</th>
+                    <th>Address</th>
+                    <th>Description</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>1</td>
+                    <td>Kitchen</td>
+                    <td>Mumbai</td>
+                    <td>Manage all the things related to the kitchen</td>
+                    <td><a href="/image.html" a>Update</a></td>
+                    <button>Delete</button>
+                </tr>
+            </table>
+
+            <h2>Feedback result</h2>
+            <table>
+                <tr>
+                    <th>Q1: Was this your first visit?</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Yes</td>
+                    <td>10</td>
+                </tr>
+                <tr>
+                    <td>No</td>
+                    <td>4</td>
+                </tr>
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <th>Q2: How did you hear about our hotel?</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Magazine</td>
+                    <td>1</td>
+                </tr>
+                <tr>
+                    <td>Search Engine</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Social Media</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Others</td>
+                    <td>1</td>
+                </tr>
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <th>Q3: How did you make you reservation?</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Travel Agency</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Website</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Other</td>
+                    <td>2</td>
+                </tr>
+            </table>
+            <br>
+            <table>
+                <tr>
+                    <th>Q4: What is your purpose of visit?</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>Travel</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Wedding</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Other</td>
+                    <td>2</td>
+                </tr>
+            </table>
+            <br>
+            
+
+
+
+
+</body>
+
+</html>
